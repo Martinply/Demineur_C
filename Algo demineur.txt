@@ -3,6 +3,7 @@ Algo Démineur:
 -Le remplir aléatoirement avec des cases vide,de 1, 2, 3 et des X(mines)
 -Masquer les cases au joueur
 3 possibilités:(boucle while true false)
+---------------------------
 1/ Le joueur tombe sur une cases contenant un X (mine) ---> Le jeu s'arrête 
 2/ Le joueur tombe sur une cases vide, un 1, 2 ou 3 ---> Pluisieurs cases autour de celle séléctionné
 sont rendu visible.
