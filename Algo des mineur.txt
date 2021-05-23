@@ -1,0 +1,33 @@
+Algo Démineur:
+-Initialiser un tableau a double entrée
+-Le remplir aléatoirement avec des cases vide,de 1, 2, 3 et des X(mines)
+-Masquer les cases au joueur
+3 possibilités:(boucle while true false)
+1/ Le joueur tombe sur une cases contenant un X (mine) ---> Le jeu s'arrête 
+2/ Le joueur tombe sur une cases vide, un 1, 2 ou 3 ---> Pluisieurs cases autour de celle séléctionné
+sont rendu visible.
+3/ Le joueur a trouvé toutes les mines (à l'aide d'un compteur de bombe)---> Le jeu s'arrête
+
+Fonctions:
+Qui vérifie l'input de l'utilisateur et lui demande de tapper une coordonné:
+	int verify_input(int size);
+	printf
+	scanf
+	do while
+
+Qui affiche la grille:
+	void printgrid(int tab[][], int taille);
+
+Qui vérifie ce qu'il y a sur la case séléctionné:
+	int verification_case(int tab[][], int taille);
+
+Qui dispose les mines:
+	int random(int ***tab, int taille);
+
+Qui vérifie combien il y a de bombe a coté de la case séléctionné et afficher le nombre
+	int bomb_verfication(
+
+Qui vérifie si le joueur a perdu
+
+
+	

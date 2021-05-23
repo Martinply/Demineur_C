@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1618784252 source:c:\users\marti\onedrive\documents\c\demineur\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"entete.h"
+
+1618760205 source:c:\users\marti\onedrive\documents\c\demineur\fonctions.c
+	"entete.h"
+	<stdio.h>
+	<stdlib.h>
+
+1618756234 c:\users\marti\onedrive\documents\c\demineur\entete.h
+
